@@ -1,0 +1,19 @@
+.boxes {
+  width: 600px; /* 横幅 600px */
+  background-color: yellow;
+  margin: 0 auto; /* boxes 中央寄せ*/
+  display: flex; /* Flexの利用*/
+  justify-content: center;
+}
+
+.box1 {
+  width: 150px; /* 横幅 150px */
+  height: 400px; /* 高さ 400px*/
+  background-color: orange; /* 背景色 orange*/
+}
+
+.box2 {
+  width: 250px; /* 横幅 250px */
+  height: 400px; /* 高さ 400px*/
+  background-color: red; /* 背景色 red*/
+}
