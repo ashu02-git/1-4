@@ -18,24 +18,29 @@
 }
 
 .main {
-  width: 100%;
+  width: 960px;
   height: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
-.main1 {
-  width: 960px;
+.main-left {
+  width: 230px;
   height: 1400px;
   background-color: palegreen;
 }
 
-.main2 {
+.main-center {
   width: 500px;
   height: 1400px;
-  margin: 0 auto;
-  background-color: limegreen;
+  background-color: rgb(165, 172, 165);
+}
+
+.main-right {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
